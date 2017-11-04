@@ -1,0 +1,13 @@
+@import "_mixins/font-face";
+
+@include font-face("Lato", "../fonts/Lato/LatoLatin-Light", 300);
+@include font-face("Lato", "../fonts/Lato/LatoLatin-Regular");
+@include font-face("Lato", "../fonts/Lato/LatoLatin-Medium", 600);
+@include font-face("Lato", "../fonts/Lato/LatoLatin-MediumItalic", 600, italic);
+@include font-face("Lato", "../fonts/Lato/LatoLatin-Bold", 700);
+@include font-face("Lato", "../fonts/Lato/LatoLatin-Black", 900);
+
+@include font-face("ChunkFive", "../fonts/ChunkFive/Chunkfive");
+
+@include font-face("Montserrat", "../fonts/Montserrat/Montserrat-Regular");
+@include font-face("Montserrat", "../fonts/Montserrat/Montserrat-Bold", 700);
