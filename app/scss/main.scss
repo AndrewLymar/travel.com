@@ -101,6 +101,14 @@ h3 {
     }
 }
 
+.img-container {
+    img {
+        width: 100%;
+        height: auto;
+    }
+    
+}
+
 header {
     .top-header {
         color: #fff;
@@ -220,6 +228,32 @@ nav {
         line-height: 2.0em;
         color: #777;
     }
+    form {
+        position: relative;
+        button,
+        input {
+            &:focus {
+                outline: 0;
+                outline-offset: 0;
+            }
+        }
+        button {
+            position: absolute;
+            top: 9px;
+            left: 12px;
+            border: 0;
+            background-color: #fff;
+            cursor: pointer;
+        }
+        input {
+            height: 35px;
+            padding-left: 42px;
+            border: 1px solid #E9E9E9;
+            border-radius: 109px;
+            font-size: 14px;
+            font-style: italic;
+        }
+    }
 }
 
 .img-info {
@@ -238,7 +272,7 @@ nav {
         color: #aeaeae;
     }
     .active-place {
-        font-weight: 900;   
+        font-weight: 900;
     }
     span {
         margin-left: 15px;
@@ -246,4 +280,16 @@ nav {
     }
 }
 
+.travels {
+    margin-top: 15px;
+}
+
+.img-travel {
+    flex: 1 2 690px;
+}
+
+.travel-info {
+    flex: 1 1 475px;
+    padding: 60px 40px;
+}
 @import "media";
