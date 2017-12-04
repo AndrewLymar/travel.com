@@ -50,6 +50,11 @@
     flex-wrap: wrap;
 }
 
+.flex-center {
+    align-items: center;
+    justify-content: center;
+}
+
 .container {
     max-width: 1170px;
     margin: 0 auto;
@@ -289,12 +294,65 @@ nav {
     margin-top: 15px;
 }
 
-.travel {
+.travels-container {
+    margin-top: 35px;
+}
+
+.travel-one {
     background: url(../img/travel1.jpg) no-repeat;
+    .pointer {
+        border-right: 12px solid #fff;
+    }
+    .more {
+        padding-right: 15px;
+        padding-bottom: 15px;
+    }
+}
+
+.more {}
+
+.travel-two {
+    position: relative;
+    width: 670px;
+    height: 360px;
+    background: url(../img/travel2.jpg) no-repeat;
+    background-size: cover;
+    .travel-info {
+        width: 335px;
+    }
+    .pointer {
+        left: 0;
+        border-left: 12px solid #fff;
+    }
+    .more {
+        position: absolute;
+        top: 88%;
+        right: -325px;
+    }
+}
+
+.travel-three {
+    position: relative;
+    width: 475px;
+    height: 360px;
+    background: url(../img/travel3.jpg) no-repeat;
+    background-size: cover;
+    .more {
+        position: absolute;
+        top: 88%;
+        right: 15px;
+    }
 }
 
 .travel-more {
     position: relative;
+}
+
+.travel-decoration {
+    width: 155px;
+    height: 155px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.95);
 }
 
 .pointer {
@@ -302,13 +360,7 @@ nav {
     top: 50%;
     left: 79px;
     border: 12px solid transparent;
-    border-right: 12px solid #fff;
     opacity: 0.93;
-}
-
-.more {
-    padding-right: 15px;
-    padding-bottom: 15px;
 }
 
 .more-text {
@@ -329,7 +381,7 @@ nav {
     padding: 60px 40px 20px;
     background: rgba(255, 255, 255, 0.93);
     h4 {
-        margin-top: 30px;
+        margin-top: 15px;
         font-size: 30px;
         font-weight: 300;
         color: #01a2a6;
