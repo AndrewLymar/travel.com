@@ -50,7 +50,7 @@
     flex-wrap: wrap;
 }
 
-.flex-center {
+.flex-centered {
     align-items: center;
     justify-content: center;
 }
@@ -224,7 +224,9 @@ nav {
 }
 
 .s-destination {
-    .destination-container {
+    background-color: #F2FEFE;
+    padding-bottom: 85px;
+    .destination-title-container {
         padding-left: 70px;
         padding-right: 70px;
         >p {
@@ -298,6 +300,10 @@ nav {
     margin-top: 35px;
 }
 
+.more {
+    cursor: pointer;
+}
+
 .travel-one {
     background: url(../img/travel1.jpg) no-repeat;
     .pointer {
@@ -308,8 +314,6 @@ nav {
         padding-bottom: 15px;
     }
 }
-
-.more {}
 
 .travel-two {
     position: relative;
@@ -378,10 +382,10 @@ nav {
 .travel-info {
     position: relative;
     width: 475px;
-    padding: 60px 40px 20px;
+    padding: 45px 30px 20px;
     background: rgba(255, 255, 255, 0.93);
     h4 {
-        margin-top: 15px;
+        margin-top: 10px;
         font-size: 30px;
         font-weight: 300;
         color: #01a2a6;
@@ -390,6 +394,68 @@ nav {
         margin-top: 5px;
         font-weight: 600;
     }
+}
+
+ul.pages {
+    margin: 0 auto;
+    margin-top: 80px;
+    align-items: baseline;
+    li {
+        margin-right: 18px;
+        font-family: "ChunkFive", sans-serif;
+        font-size: 18px;
+        color: #acacac;
+        cursor: pointer;
+    }
+    li.current-page {
+        font-size: 24px;
+        color: #01a2a6;
+    }
+    li.to-last-page {
+        img:last-child {
+            margin-left: -17px;
+        }
+    }
+}
+
+.ittinery-container {
+    margin-top: 145px;
+}
+
+.ittinery-title-container {
+    margin-top: 75px;
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: center;
+    color: #777;
+}
+
+.ittinery-form {
+    width: 670px;
+    height: 720px;
+    background-color: #FFFFA6;
+}
+
+.ittinery-form-title {
+    height: 75px;
+    background: url(../img/form-bg.jpg) no-repeat;
+    color: #fff;
+    h4 {
+        font-family: "Lato", sans-serif;
+        font-weight: 900;
+    }
+}
+
+.ittinery-form-container {
+    padding-top: 25px;
+    padding-right: 40px;
+    padding-bottom: 90px;
+    padding-left: 40px;
+}
+
+.ittinery-list {
+    width: 470px;
+    height: 535px;
 }
 
 @import "media";
