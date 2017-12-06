@@ -64,6 +64,10 @@
     box-sizing: border-box;
 }
 
+p {
+    margin: 0;
+}
+
 body {
     font-size: 16px;
     min-width: 320px;
@@ -420,6 +424,7 @@ ul.pages {
 
 .ittinery-container {
     margin-top: 145px;
+    font-family: "Lato", sans-serif;
 }
 
 .ittinery-title-container {
@@ -436,26 +441,111 @@ ul.pages {
     background-color: #FFFFA6;
 }
 
+.date-container {
+    margin-bottom: 15px;
+    font-weight: 900;
+    color: #29d9c2;
+}
+
 .ittinery-form-title {
     height: 75px;
     background: url(../img/form-bg.jpg) no-repeat;
     color: #fff;
     h4 {
-        font-family: "Lato", sans-serif;
+        font-family: 18px;
         font-weight: 900;
     }
 }
 
-.ittinery-form-container {
+.destinations {
     padding-top: 25px;
     padding-right: 40px;
-    padding-bottom: 90px;
+    padding-bottom: 95px;
     padding-left: 40px;
+}
+
+.destination {
+    margin-top: 13px;
+    position: relative;
+    &:first-child {
+        margin-top: 0px;
+    }
 }
 
 .ittinery-list {
     width: 470px;
     height: 535px;
+}
+
+.destination-field {
+    width: 600px;
+    height: 70px;
+    padding-left: 12px;
+    padding-right: 25px;
+    background-color: #fff;
+    border: 1px solid #D5D57D;
+    border-radius: 6px;
+}
+
+.target {
+    p {
+        margin-left: 30px;
+        font-size: 24px;
+        font-weight: 300;
+        color: #626262;
+    }
+    img {
+        max-width: 25%;
+        height: auto;
+    }
+}
+
+.time {
+    font-weight: 300;
+    color: #a8a8a8;
+}
+
+.sub-destination {
+    position: relative;
+    width: 570px;
+    margin: 0 auto;
+    top: 0;
+    background-color: #f5e99e;
+    border-bottom-left-radius: 4px;
+    p {
+        font-size: 16px;
+        color: #aea25c;
+    }
+}
+
+.sub-destination-container {
+    width: 535px;
+    p {
+        padding: 15px 18px;
+        border-bottom: 1px solid #DBCE80;
+        &:last-child {
+            border-bottom: none;
+        }
+    }
+}
+
+.add-sub-destination {
+    position: relative;
+    width: 200px;
+    height: 40px;
+    top: 0px;
+    right: -380px;
+    background-color: #f5e99e;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    p {
+        font-size: 16px;
+        font-weight: 700;
+        color: #d8cb7d;
+    }
+    img {
+        margin-left: 10px;
+    }
 }
 
 @import "media";
