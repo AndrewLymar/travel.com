@@ -422,7 +422,7 @@ ul.pages {
     }
 }
 
-.ittinery-container {
+.set-ittinery-container {
     margin-top: 145px;
     font-family: "Lato", sans-serif;
 }
@@ -437,7 +437,6 @@ ul.pages {
 
 .ittinery-form {
     width: 670px;
-    height: 720px;
     background-color: #FFFFA6;
 }
 
@@ -546,6 +545,112 @@ ul.pages {
     img {
         margin-left: 10px;
     }
+}
+
+.new-destination {
+    width: 100%;
+    height: 72px;
+    font-size: 24px;
+    background-color: #FBF6A3;
+    border: 3px dashed #E8E897;
+    border-radius: 4px;
+    color: #d8cb7d;
+}
+
+.ittinery-action {
+    margin-top: 17px;
+    button {
+        height: 62px;
+        text-transform: uppercase;
+        border: 0;
+        border-radius: 46px;
+        padding: 20px 26px;
+        cursor: pointer;
+        p {
+            margin-left: 12px;
+            font-size: 16px;
+            font-weight: 700;
+            color: #fff;
+        }
+    }
+    button.save {
+        background-color: #C3F37F;
+    }
+    button.print {
+        margin-left: 25px;
+        background-color: #3DDBC7;
+    }
+}
+
+.destination-list-container {
+    margin-top: 30px;
+    width: 465px;
+    h4 {
+        font-size: 18px;
+        font-weight: 900;
+        color: #29d9c2;
+    }
+}
+
+.sort-and-search {
+    margin-top: 60px;
+    width: 100%;
+    p {
+        font-size: 18px;
+        font-weight: 700;
+        color: #29d9c2;
+        span {
+            font-weight: 400;
+            color: #bcbcbc;
+        }
+    }
+}
+
+.select-destination {
+    width: 465px;
+    height: 72px;
+    border:1px solid #E8E8E8;
+    border-radius: 6px;
+    padding: {
+        top: 12px;
+        right: 16px;
+        bottom: 12px;
+        left: 20px;    
+    }
+    box-shadow: 0px 2px 29px 2px rgba(242,242,242,1);
+}
+
+.destination-description {
+    h5 {
+       font-size: 24px;
+    font-weight: 300; 
+        color: #626262;
+    }
+    p {
+        font-size: 14px;
+        font-weight: 300;
+        color: #b9b9b9;
+        span {
+            color: #23c6b6;
+            font-weight: 600;
+        }
+    }
+    
+}
+
+.details {
+    height: 50px;
+    cursor: pointer;
+    img {
+        width: 70%;
+    }
+    p {
+        margin-top: 6px;
+        font-size: 14px;
+        font-weight: 700;
+        color: #23c6b6;
+    }
+    
 }
 
 @import "media";
