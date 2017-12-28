@@ -305,6 +305,16 @@ nav {
 	margin-top: 35px;
 }
 
+.more-button {
+	@extend .button;
+	display: none;
+	width: 200px;
+	height: 50px;
+	margin: 0 auto;
+	margin-top: 10px;
+	background-color: #FFFFA6;
+}
+
 .more {
 	cursor: pointer;
 }

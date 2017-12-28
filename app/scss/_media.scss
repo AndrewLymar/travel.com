@@ -61,23 +61,18 @@
 	.travel-three {
 		width: 100%;
 	}
+	.travel-one,
 	.travel-two {
+		height: auto;
 		.travel-more {
-			position: static;
-			align-items: flex-end;
-			.more {
-				position: static;
-				.more-text {
-					font-size: 18px;
-					font-weight: 900;
-					color: #777;
-				}
-				.img-container {
-
-				}
-			}
-
+			display: none;
 		}
+	}
+	.travel-info {
+		padding: 25px 30px 20px;
+	}
+	.more-button {
+		display: flex;
 	}
 	.pointer {
 		display: none;
@@ -124,6 +119,26 @@
 }
 
 @media only screen and (max-width: 480px) {
+	.s-subscribe {
+		.container {
+			width: 90%;
+		}
+		h4 {
+			margin-bottom: 10px;
+		}
+		form {
+			input {
+				padding-left: 5px;
+			}
+			button {
+				width: 65px;
+				height: 65px;
+				top: -69px;
+				left: 68%;
+				border-radius: 100%;
+			}
+		}
+	}
 	.bottom-header h3,
 	h3 {
 		font-size: 40px;
