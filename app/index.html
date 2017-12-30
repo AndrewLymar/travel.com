@@ -14,7 +14,7 @@
 	<header>
 		<div class="top-header">
 			<div class="container flex-col">
-				<nav class="flex-row flex-between flex-middle">
+				<nav class="flex-row flex-between flex-middle flex-wrap">
 					<a href="">
 						<h1>Yok<span>Ngalam</span></h1>
 					</a>
@@ -24,11 +24,12 @@
 						<li><a href="">Ittinary</a></li>
 						<li><a href="">Review</a></li>
 						<li><a href="">Contact</a></li>
-						<li class="user-profile flex-row flex-middle">
+					</ul>
+					<img src="img/menu.png" class="menu" alt="menu">
+					<div class="user-profile flex-row flex-middle">
 							<img src="img/user.jpg" class="user" alt="user">
 							<img src="img/dropdown.png" alt="user">
-						</li>
-					</ul>
+					</div>
 				</nav>
 				<div class="banner flex-col flex-middle">
 					<h2>Lets get <span>lost</span></h2>
@@ -40,7 +41,7 @@
 		</div>
 		<div class="bottom-header">
 			<div class="container flex-col">
-				<div class="flex-row flex-wrap">
+				<div class="banner-el flex-row flex-wrap">
 					<div class="img-container city-img"><img src="img/city.png" alt="city"></div>
 					<div class="description flex-col">
 						<h3>City of <span>Love</span></h3>
@@ -301,7 +302,7 @@
 						<input name="subject" value="" placeholder="Subject" class="subject">
 					</div>
 					<textarea name="message">Your Messages</textarea>
-					<button>Send Message</button>
+					<button type="submit">Send Message</button>
 				</form>
 				<div class="or">OR</div>
 				<div class="address">
@@ -333,7 +334,7 @@
 			</div>
 			<form action="">
 				<input type="text" value="" name="email" placeholder="Type Email Here for Subscribe">
-				<button><img src="img/subscribe-arrow.png" alt="arrow"></button>
+				<button type="submit"><img src="img/subscribe-arrow.png" alt="arrow"></button>
 			</form>
 		</div>
 	</section>

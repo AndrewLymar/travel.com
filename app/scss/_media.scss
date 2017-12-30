@@ -1,4 +1,8 @@
 @media only screen and (max-width: 1200px) {
+	nav {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
 	.set-ittinery-container {
 		justify-content: center;
 	}
@@ -37,12 +41,42 @@
 }
 
 @media only screen and (max-width: 768px) {
-	nav ul {
-		display: none;
+	nav {
+		a {
+			order: 1;
+		}
+		img.menu {
+			order: 2;
+		}
+		.user-profile {
+			order: 3;
+		}
+		ul {
+			width: 100%;
+			flex-direction: column;
+			justify-content: flex-start!important;
+			padding: 0;
+			order: 4;
+			li {
+				margin-right: 0px;
+				margin-bottom: 15px;
+				a {
+					font-size: 24px;
+				}
+			}
+		}
 	}
 	.banner {
 		padding-left: 20px;
 		padding-right: 20px;
+	}
+	.banner-el {
+		justify-content: center;
+	}
+	.bottom-header {
+		.city-img {
+			margin: 0;
+		}
 	}
 	.s-destination {
 		.destination-title-container {
@@ -63,12 +97,15 @@
 	}
 	.travel-one,
 	.travel-two {
+		width: 100%;
 		height: auto;
 		.travel-more {
 			display: none;
 		}
 	}
 	.travel-info {
+		width: 100%;
+		height: 100%;
 		padding: 25px 30px 20px;
 	}
 	.more-button {
@@ -133,11 +170,23 @@
 			button {
 				width: 65px;
 				height: 65px;
+				margin: 0 auto;
 				top: -69px;
-				left: 68%;
+				left: 65%;
 				border-radius: 100%;
 			}
 		}
+	}
+	footer {
+		ul.condition {
+			flex-direction: column;
+			li:first-child {
+				list-style: inherit;
+			}
+		}
+	}
+	.social-and-terms {
+		padding-left: 30px;
 	}
 	.bottom-header h3,
 	h3 {
@@ -159,6 +208,10 @@
 	.ittinery-form {
 		margin: 0 auto;
 		width: 300px;
+	}
+	.ittinery-action {
+		padding-left: 5px;
+		padding-right: 5px;
 	}
 	.sub-destination {
 		width: 95%;
@@ -193,6 +246,11 @@
 	.s-contact h3 {
 		margin-top: 25px;
 		margin-bottom: 25px;
+	}
+	.copy {
+		p {
+			width: 90%;
+		}
 	}
 }
 
