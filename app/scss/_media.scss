@@ -2,6 +2,11 @@
 	nav {
 		padding-left: 15px;
 		padding-right: 15px;
+		ul {
+			li {
+				margin-right: 50px;
+			}
+		}
 	}
 	.set-ittinery-container {
 		justify-content: center;
@@ -25,6 +30,23 @@
 }
 
 @media only screen and (max-width: 992px) {
+	nav {
+		a {
+			order: 1;
+		}
+		img.menu {
+			order: 2;
+		}
+		.user-profile {
+			order: 3;
+		}
+		ul {
+			order: 4;
+			li {
+				margin-right: 40px;
+			}
+		}
+	}
 	.form-and-adress {
 		justify-content: center;
 	}
@@ -46,6 +68,7 @@
 			order: 1;
 		}
 		img.menu {
+			display: flex;
 			order: 2;
 		}
 		.user-profile {
@@ -172,7 +195,7 @@
 				height: 65px;
 				margin: 0 auto;
 				top: -69px;
-				left: 65%;
+				left: 72%;
 				border-radius: 100%;
 			}
 		}
@@ -254,4 +277,12 @@
 	}
 }
 
-@media only screen and (max-width: 320px) {}
+@media only screen and (max-width: 380px) {
+	.s-subscribe {
+		form {
+			button {
+				left: 66%;
+			}
+		}
+	}
+}
