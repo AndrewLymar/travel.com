@@ -95,6 +95,11 @@ a {
 	text-decoration: none;
 }
 
+input:active, input:hover, input:focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
 .button {
 	border-radius: 109px;
 	cursor: pointer;
